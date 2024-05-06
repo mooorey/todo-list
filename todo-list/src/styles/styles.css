@@ -1,0 +1,13 @@
+.dark{
+    background-color: grey;
+}
+
+.light{
+    background-color: white;
+}
+
+label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

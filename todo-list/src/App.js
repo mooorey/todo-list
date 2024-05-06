@@ -3,7 +3,7 @@ import TodoList from "./components/TodoList";
 import { useState } from "react";
 import { v4 } from "uuid";
 import myContext from "./components/context";
-import "./styles/styles.css";
+
 import themeContext from "./components/themeContext";
 import React from "react";
 
@@ -50,16 +50,6 @@ function App() {
             deleteTodo={deleteTodo}
           />
           <br></br>
-          <label>
-            <input
-              type="checkbox"
-              checked={theme === "dark"}
-              onChange={(e) => {
-                setTheme(e.target.checked ? "dark" : "light");
-              }}
-            />
-            Use Dark mode
-          </label>
     </div>
       </myContext.Provider>
     </themeContext.Provider>

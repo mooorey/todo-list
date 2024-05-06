@@ -2,7 +2,6 @@ import { React, useContext, useState, createContext } from "react";
 import { FormControl, Container, TextField, Button } from "@mui/material";
 import myContext from "./context";
 import themeContext from "./themeContext";
-import "C:/Users/Taimoor Khan/Desktop/todo list/todo-list/src/styles/styles.css";
 
 const TodoForm = ({ addTodo }) => {
   const heading = useContext(myContext);
